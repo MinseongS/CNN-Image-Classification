@@ -61,7 +61,7 @@ def get_model(input_tensor, dropout_rate, weight_decay, nb_filter, growth_rate):
     x = Dense(1000, activation='softmax', name='fc1000')(x)
 
     model = Model(input_tensor, x, name='densenet_final')
-
+    model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
     return model
 
 
