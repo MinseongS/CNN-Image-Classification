@@ -14,3 +14,7 @@
 
 ### Architecture
 #### - CNN 구조로 많이 사용되는 구조를 직접 코드로 작성
+##### 1. AlexNet
+##### 2. VGGNet
+##### 3. ResNet
+##### 4. DenseNet
